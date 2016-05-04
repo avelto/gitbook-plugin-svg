@@ -1,0 +1,35 @@
+{
+  "name": "gitbook-plugin-svg",
+  "version": "0.0.1",
+  "description": "First class SVG for gitbook",
+  "main": "src/index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelto/gitbook-plugin-svg.git"
+  },
+  "keywords": [
+    "gitbook",
+    "svg"
+  ],
+  "author": "Jean-Philippe Avelange <jpa@avelto.com> (http://avelto.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avelto/gitbook-plugin-svg/issues"
+  },
+  "homepage": "https://github.com/avelto/gitbook-plugin-svg#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-docco": "0.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-markdown": "^1.2.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

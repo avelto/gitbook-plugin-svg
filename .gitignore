@@ -14,3 +14,9 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Developments related
+.idea
+tmp
+docs
+!docs/github.css
